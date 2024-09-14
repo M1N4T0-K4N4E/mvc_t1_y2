@@ -3,7 +3,7 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 
 public class EngineView extends JFrame{
-
+    
     private JLabel cowCodeLabel = new JLabel("Enter Cow Code: ");
     private JTextField CowCodeInput = new JTextField(40);
     private JButton cowSendButton = new JButton("Send Cow Code");
@@ -13,6 +13,7 @@ public class EngineView extends JFrame{
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(800, 200);
+        this.setTitle("Cow Strike");
 
         EnginePanel.add(cowCodeLabel);
         EnginePanel.add(CowCodeInput);
